@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Undergraduate AI Researcher at <a href='https://psquare-lab.github.io/Team/'>P-square lab</a> Indian Institute of Technology Roorkee.
 
 profile:
   align: right
