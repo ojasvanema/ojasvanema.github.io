@@ -2,17 +2,17 @@
 layout: about
 title: about
 permalink: /
-subtitle: Undergraduate AI Researcher at <a href='https://psquare-lab.github.io/Team/'>P-square lab</a> Indian Institute of Technology Roorkee.
+subtitle: Undergraduate Researcher at <a href='https://www.iitr.ac.in/'>IIT Roorkee</a>.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  address: >
+    <p>Department of Metallurgical and Materials Engineering</p>
+    <p>IIT Roorkee, India</p>
 
+news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
@@ -27,8 +27,14 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi, I am Ojasva, a junior undergraduate at [IIT Roorkee](https://www.iitr.ac.in/), majoring in Metallurgical and Materials Engineering. My research interests lie at the intersection of **Deep Generative Models**, **Mechanistic Interpretability**, and **Large Language Models**.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Currently, I am a Research Assistant working with [Prof. Parikshit Pareek](https://www.iitr.ac.in/~EE/Parikshit_Pareek) at the Electrical Engineering Department, IIT Roorkee. My work focuses on designing sparsity-aware **Variational Autoencoders (VAEs)** for modeling ultra-sparse data in high-energy physics detectors. We are introducing weighted loss functions to stabilize training and building physics-informed generative frameworks.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I am also an active member of the [Data Science Group, IIT Roorkee](https://dsgiitr.in/).
+
+Previously, I have worked on:
+*   **Domain Circuit Discovery in LLMs**: Investigating how LLMs represent and process diverse domain knowledge using mechanistic interpretability techniques.
+*   **Survival Analysis**: Predicting survival probability for colon cancer patients using ML models like Cox Proportional Hazards Regression and Random Survival Forests.
+
+Outside of research, I enjoy exploring new technologies and working on open-source projects.
