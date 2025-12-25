@@ -6,7 +6,7 @@ subtitle: Undergraduate Researcher at <a href='https://www.iitr.ac.in/'>IIT Roor
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
     <p>Department of Metallurgical and Materials Engineering</p>
@@ -27,14 +27,19 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi, I am Ojasva, a junior undergraduate at [IIT Roorkee](https://www.iitr.ac.in/), majoring in Metallurgical and Materials Engineering. My research interests lie at the intersection of **Deep Generative Models**, **Mechanistic Interpretability**, and **Large Language Models**.
+Hi, I'm **Ojasva**.
 
-Currently, I am a Research Assistant working with [Prof. Parikshit Pareek](https://www.iitr.ac.in/~EE/Parikshit_Pareek) at the Electrical Engineering Department, IIT Roorkee. My work focuses on designing sparsity-aware **Variational Autoencoders (VAEs)** for modeling ultra-sparse data in high-energy physics detectors. We are introducing weighted loss functions to stabilize training and building physics-informed generative frameworks.
+I am an undergraduate at **IIT Roorkee** . My work revolves around **Deep Generative Models**, **Mechanistic Interpretability**, and **Large Language Models**.
 
-I am also an active member of the [Data Science Group, IIT Roorkee](https://dsgiitr.in/).
+Currently, my work is focused on **Mechanistic Interpretability**. I am an active member of the **Data Science Group (DSG)**, a student club on campus. I lead a research squad within the club, investigating LLM internals. We recently published work on how models route domain knowledge (check our [website](#)).
 
-Previously, I have worked on:
-*   **Domain Circuit Discovery in LLMs**: Investigating how LLMs represent and process diverse domain knowledge using mechanistic interpretability techniques.
-*   **Survival Analysis**: Predicting survival probability for colon cancer patients using ML models like Cox Proportional Hazards Regression and Random Survival Forests.
 
-Outside of research, I enjoy exploring new technologies and working on open-source projects.
+Simultaneously, I work at the **P-square Lab** with [Prof. Parikshit Pareek](https://www.iitr.ac.in/~EE/Parikshit_Pareek). We are currently investigating **Bilinear MLPs** to find more interpretable architectures and building a **foundation model for amortized kernel hyperparameter discovery**. We also recently finalized a **Sparse Diffusion** framework for high-energy physics (CERN).
+
+Previously, I worked on **Image Alchemy**, a personalization method for diffusion models that I published at **ICLR 2025**.
+
+Beyond the lab, I recently gained real-world experience at **Elimentary**, where I engineered local LLM APIs and evaluation pipelines.
+
+
+Always happy to chat about circuits, LLMs or what’s next in AI!
+What would you do if you had infinte compute?
