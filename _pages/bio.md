@@ -1,19 +1,21 @@
 ---
 layout: about
-title: about
-permalink: /
+title: About
+permalink: /about/
+nav: true
+nav_order: 3
 subtitle: Undergraduate Researcher at <a href='https://psquare-lab.github.io/'>P-square Lab</a>.
 
 profile:
   align: right
-  image: profile_pic.jpg
+  image: 
   image_circular: false # crops the image to make it circular
   address: >
     <p>Department of Metallurgical and Materials Engineering</p>
     <p>IIT Roorkee, India</p>
 
 news: false  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
