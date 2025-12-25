@@ -31,15 +31,16 @@ Hi, I'm **Ojasva**.
 
 I am an undergraduate at **IIT Roorkee** . My work revolves around **Deep Generative Models**, **Mechanistic Interpretability**, and **Large Language Models**.
 
-Currently, my work is focused on **Mechanistic Interpretability**. I am an active member of the **Data Science Group (DSG)**, a student club on campus. I lead a research squad within the club, investigating LLM internals. We recently published work on how models route domain knowledge (check our [website](#)).
+Currently, my work is focused on **Mechanistic Interpretability**. I am an active member of the [**Data Science Group (DSG)**](https://dsgiitr.in/), a student club on campus. I lead a research squad within the club, investigating LLM internals. We recently published work on how models route domain knowledge (check our [website](https://inside-llms.gitbook.io/surgical-domain-discovery)).
 
 
-Simultaneously, I work at the **P-square Lab** with [Prof. Parikshit Pareek](https://www.iitr.ac.in/~EE/Parikshit_Pareek). We are currently investigating **Bilinear MLPs** to find more interpretable architectures and building a **foundation model for amortized kernel hyperparameter discovery**. We also recently finalized a **Sparse Diffusion** framework for high-energy physics (CERN).
+Simultaneously, I work at the [**P-square Lab**](https://psquare-lab.github.io/) with Prof. Parikshit Pareek. We are currently investigating **Bilinear MLPs** to find more interpretable architectures and building a **foundation model for amortized kernel hyperparameter discovery**. We also recently finalized a **Sparse Diffusion** framework for high-energy physics(CERN).
 
-Previously, I worked on **Image Alchemy**, a personalization method for diffusion models that I published at **ICLR 2025**.
+Previously, I worked on **Image Alchemy**, a personalization method for diffusion models that I published at **ICLR DeLTa workshop 2025**.
 
 Beyond the lab, I recently gained real-world experience at **Elimentary**, where I engineered local LLM APIs and evaluation pipelines.
 
+Off the clock, I’m usually reading about finance (I’m always open to book recommendations!) or watching anime.
 
 Always happy to chat about circuits, LLMs or what’s next in AI!
-What would you do if you had infinte compute?
+(And seriously, what would *you* do if you had infinite compute?)
