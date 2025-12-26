@@ -57,7 +57,7 @@ bib_search: true
 max_width: 930px
 
 # TODO: add layout settings (single page vs. multi-page)
-enable_publication_thumbnails: true
+
 
 # -----------------------------------------------------------------------------
 # Open Graph & Schema.org
