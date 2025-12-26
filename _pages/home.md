@@ -98,30 +98,21 @@ nav_order: 1
 
     <!-- Image Column -->
     <div class="col-md-5 text-center">
-      <div class="profile-container position-relative">
-        <div style="
-          position: absolute;
-          top: -15px;
-          right: -15px;
-          bottom: -15px;
-          left: -15px;
-          background: linear-gradient(135deg, var(--global-theme-color), transparent 60%);
-          z-index: 0;
-          border-radius: 40px;
-          opacity: 0.2;
-        "></div>
+      <div class="profile-container">
         <img 
           src="{{ '/assets/img/profile_pic.jpg' | relative_url }}" 
           alt="profile picture" 
-          class="img-fluid position-relative z-depth-1" 
+          class="img-fluid" 
           style="
             border-radius: 30px; 
             max-width: 320px;
             width: 100%;
             object-fit: cover;
-            z-index: 1;
-            box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3), 0 0 0 1px rgba(255,255,255,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
           "
+          onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 25px 70px rgba(0,0,0,0.4), 0 0 0 1px rgba(255,255,255,0.1)'"
+          onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 20px 60px rgba(0,0,0,0.3), 0 0 0 1px rgba(255,255,255,0.1)'"
         >
       </div>
     </div>
