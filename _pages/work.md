@@ -65,8 +65,4 @@ nav_order: 2
 </div>
 
 
-<!-- Projects Section -->
-<h2 class="category mt-5">Projects</h2>
-<div class="projects">
-{% include projects.liquid %}
-</div>
+
