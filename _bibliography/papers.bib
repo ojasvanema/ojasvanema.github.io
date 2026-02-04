@@ -1,22 +1,33 @@
----
----
-
-@inproceedings{imagealchemy2025,
-  abbr={ICLR Workshop},
-  title={Image-Alchemy: Advancing Subject Fidelity in Personalized Text-to-Image Generation},
-  author={Nema, Ojasva and others},
-  booktitle={ICLR DeLTa Workshop},
-  year={2025},
+@article{nema2026structural,
+  abbr={Preprint},
+  title={Structural Disentanglement in Bilinear MLPs via Architectural Inductive Bias},
+  author={Nema, Ojasva and Sharma, Kaustubh and Chauhan, Aditya and Pareek, Parikshit},
+  journal={Preprint},
+  year={2026},
   selected={true},
-  pdf={https://arxiv.org/abs/2505.10743},
-  preview={Image-alchemy.png},
-  description={A personalization method for diffusion models advancing subject fidelity in text-to-image generation.}
+  pdf={https://drive.google.com/file/d/1mQ5Z4kiwkN5GA1XRYTyPVjbt0ZeaMLgO/view},
+  abstract={Selective unlearning and long-horizon extrapolation remain fragile in modern neural networks, even when tasks have underlying algebraic structure. In this work, we argue that these failures arise not solely from optimization or unlearning algorithms, but from how models structure their internal representations during training. We explore if having explicit multiplicative interactions as an architectural inductive bias helps in structural disentanglement, through Bilinear MLPs. We show analytically that bilinear parameterizations possess a `non-mixing' property under gradient flow conditions, where functional components separate into orthogonal subspace representations. This provides a mathematical foundation for surgical model modification. We validate this hypothesis through a series of controlled experiments spanning modular arithmetic, cyclic reasoning, Lie group dynamics, and targeted unlearning benchmarks. Unlike pointwise nonlinear networks, multiplicative architectures are able to recover true operators aligned with the underlying algebraic structure. Our results suggest that model editability and generalization are constrained by representational structure, and that architectural inductive bias plays a central role in enabling reliable unlearning.},
+  description={Architectural inductive bias supports structural disentanglement which, in turn, helps unlearning and generalization.},
+  preview={bilinear_mlps.png}
 }
 
-@article{domain2025,
+@article{sharma2026amortized,
   abbr={Preprint},
-  title={Domain Circuit Discovery: Surgical Domain Discovery in LLMs},
-  author={Nema, Ojasva and others},
+  title={Amortized Spectral Kernel Discovery via Prior-Data Fitted Network},
+  author={Nema, Ojasva and Sharma, Kaustubh and Tiwari, Srijan and Pareek, Parikshit},
+  journal={Preprint},
+  year={2026},
+  selected={true},
+  pdf={https://arxiv.org/abs/2601.21731},
+  abstract={Prior-Data Fitted Networks (PFNs) enable efficient amortized inference but lack transparent access to their learned priors and kernels. This opacity hinders their use in downstream tasks, such as surrogate-based optimization, that require explicit covariance models. We introduce an interpretability-driven framework for amortized spectral discovery from pre-trained PFNs with decoupled attention. We perform a mechanistic analysis on a trained PFN that identifies attention latent output as the key intermediary, linking observed function data to spectral structure. Building on this insight, we propose decoder architectures that map PFN latents to explicit spectral density estimates and corresponding stationary kernels via Bochner's theorem. We study this pipeline in both single-realization and multi-realization regimes, contextualizing theoretical limits on spectral identifiability and proving consistency when multiple function samples are available. Empirically, the proposed decoders recover complex multi-peak spectral mixtures and produce explicit kernels that support Gaussian process regression with accuracy comparable to PFNs and optimization-based baselines, while requiring only a single forward pass. This yields orders-of-magnitude reductions in inference time compared to optimization-based baselines.},
+  description={An interpretability-driven framework for amortized spectral discovery from pre-trained PFNs with decoupled attention.},
+  preview={pfns_spectral.png}
+}
+
+@article{dissecting2025,
+  abbr={Preprint},
+  title={Dissecting Attention and MLP Roles: A Study of Domain Specialization in LLMs},
+  author={Nema, Ojasva and Sharma, Kaustubh and Bharangar, Abhiraj and Singh, Manjot and Tiwari, Srijan},
   journal={Preprint},
   year={2025},
   selected={true},
@@ -25,4 +36,16 @@
   abstract={Pinpointed component roles using probing, adaptation analysis, and causal swaps. Found that attention routes domain identity while MLPs store domain-specific logic.},
   preview={mlp_vs_attn.png},
   description={Investigating how LLMs internally represent and process diverse domain knowledge. Found that attention routes domain identity while MLPs store domain-specific logic.}
+}
+
+@inproceedings{imagealchemy2025,
+  abbr={ICLR Workshop},
+  title={Image-Alchemy: Advancing Subject Fidelity in Personalized Text-to-Image Generation},
+  author={Nema, Ojasva and Sharma, Kaustubh and Puniani, Cherish and Tiwari, Amritanshu},
+  booktitle={ICLR DeLTa Workshop},
+  year={2025},
+  selected={true},
+  pdf={https://arxiv.org/abs/2505.10743},
+  preview={Image-alchemy.png},
+  description={A personalization method for diffusion models advancing subject fidelity in text-to-image generation.}
 }

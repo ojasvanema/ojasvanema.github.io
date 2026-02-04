@@ -8,7 +8,7 @@
         {% if site.enable_publication_thumbnails and entry.preview %}
           <div class="col-md-5 d-flex align-items-center justify-content-center">
             {% if entry.preview contains '://' %}
-              <img class="preview img-fluid rounded z-depth-1" src="{{ entry.preview }}" style="width: 100%; object-fit: cover;">
+              <img class="preview img-fluid rounded z-depth-1" src="{{ entry.preview }}" style="width: auto; height: auto; max-width: 100%; max-height: 250px;">
             {% else %}
               {% assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' %}
               {%
@@ -20,7 +20,9 @@
                 zoomable=true
                 avoid_scaling=true
                 alt=entry.preview
-                style="width: 100%; object-fit: cover;"
+                width="auto"
+                max-width="100%"
+                max-height="250px"
               %}
             {% endif %}
           </div>
@@ -68,10 +70,10 @@
                   {%- if forloop.last and author_array_limit == author_array_size %}and {% endif -%}
                 {% endif %}
                 {%- if author_is_self -%}
-                  <em>
+                  <strong>
                     {{- author.first }}
                     {{ author_last_html -}}
-                  </em>
+                  </strong>
                 {%- else -%}
                   {%- if coauthor_url -%}
                     <a href="{{ coauthor_url }}">
