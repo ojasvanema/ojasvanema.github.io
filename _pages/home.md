@@ -81,10 +81,8 @@ nav_order: 1
 
       <div class="lead mb-4" style="font-size: 1.15rem; line-height: 1.6; color: var(--global-text-color-light);">
         <p>
-          I am interested in <strong style="color: var(--global-theme-color);">Generative Models</strong><br>
+          Working on <strong style="color: var(--global-theme-color);">Deep Generative Models</strong>
           and <strong>Mechanistic Interpretability</strong>.
-          <br>
-          Currently working on sparsity-aware VAEs.
         </p>
       </div>
 
