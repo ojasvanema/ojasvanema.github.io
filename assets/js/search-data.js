@@ -87,7 +87,7 @@ ninja.data = [{
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("https://drive.google.com/drive/u/0/folders/1WqJVm1NvBCLKDUzDSDY0o6JsJUj46_tq", "_blank");
+          window.open("https://drive.google.com/file/d/1yMukw87iOnGWI99rydwm9ITjjk12rZ5V/view?usp=sharing", "_blank");
         },
       },{
         id: 'social-email',
