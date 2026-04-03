@@ -25,7 +25,7 @@ nav_order: 2
         Working with <a href="https://domingomery.ing.puc.cl/" target="_blank">Prof. Parikshit Pareek</a> on <strong>Deep Generative Models</strong>.
       </p>
       <ul>
-        <li>Investigating <strong>Bilinear MLPs</strong> to design more interpretable neural architectures.</li>
+        <li>Investigating <strong>Bilinear MLPs</strong> to design more interpretable neural architectures. <a href="https://arxiv.org/abs/2602.05635">[Read Paper]</a></li>
         <li>Finalized a <strong>Sparse Diffusion</strong> framework for high-energy physics applications (CERN). <a href="https://drive.google.com/file/d/1gd-tJp-8napvR_qcfLp3wWk1FNH72SFo/view?usp=drive_link">[Read Paper]</a></li>
         <li>Designed a <strong>sparsity-aware Variational Autoencoder (VAE)</strong> for modeling data with only 0.2% active pixels, introducing a <strong>weighted loss</strong> to stabilize training.</li>
         <li>Building a foundation model for <strong>amortized kernel hyperparameter discovery</strong>.</li>
