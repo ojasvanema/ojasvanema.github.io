@@ -38,24 +38,6 @@ nav_order: 2
   <div class="job py-3 border-bottom">
     <div class="row">
       <div class="col-md-9">
-        <h4 class="font-weight-bold">Domain Circuit Discovery in LLMs for Safety</h4>
-        <h5 class="text-muted">Data Science Group, IIT Roorkee &ndash; <a href="https://inside-llms.gitbook.io/surgical-domain-discovery" target="_blank">Project Website</a></h5>
-      </div>
-      <div class="col-md-3 text-md-right text-muted">
-        <small>Apr 2025 &ndash; Ongoing</small>
-      </div>
-    </div>
-    <div class="mt-2">
-      <ul>
-        <li>Investigating domain-specific knowledge emergence in LLMs to locate specialized layers.</li>
-        <li>Mapped circuit logic via Causal Effects, Probing, Zero-out/Hydra effects, and Fine-Tuning shifts.</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="job py-3 border-bottom">
-    <div class="row">
-      <div class="col-md-9">
         <h4 class="font-weight-bold">AI Engineer Intern</h4>
         <h5 class="text-muted"><a href="https://elimentary.com/" target="_blank">Elimentary</a></h5>
       </div>
@@ -73,24 +55,6 @@ nav_order: 2
     </div>
   </div>
 
-  <div class="job py-3 border-bottom">
-    <div class="row">
-      <div class="col-md-9">
-        <h4 class="font-weight-bold">Machine Learning for Survival Analysis</h4>
-        <h5 class="text-muted">Data Science Group, IIT Roorkee</h5>
-      </div>
-      <div class="col-md-3 text-md-right text-muted">
-        <small>Dec 2023 &ndash; Jan 2024</small>
-      </div>
-    </div>
-    <div class="mt-2">
-      <ul>
-        <li>Modeled colon cancer outcomes as time-to-event prediction using survival analysis.</li>
-        <li>Benchmarked Cox PH and Random Survival Forests, tuning for concordance index.</li>
-      </ul>
-    </div>
-  </div>
-
 </div>
 
 
@@ -100,12 +64,5 @@ nav_order: 2
 {% include selected_papers.liquid %}
 </div>
 
-<!-- Achievements Section -->
-<h2 class="category mt-5">Achievements</h2>
-<div class="achievements-section mb-5">
-  <ul class="list-unstyled">
-    <li class="mb-3"><i class="fas fa-trophy text-warning mr-2"></i><strong>EY Techathon 6.0:</strong> Secured a <strong>Top-3</strong> finish among <strong>180,000+</strong> participants nationwide.</li>
-    <li class="mb-3"><i class="fas fa-trophy text-warning mr-2"></i><strong>Amazon ML Challenge 2025:</strong> Ranked <strong>66th</strong> out of <strong>82,789</strong> participants in a national ML competition.</li>
-    <li class="mb-3"><i class="fas fa-trophy text-warning mr-2"></i><strong>Tata Elxsi TELIPORT Season 3:</strong> Under <strong>Top-60</strong> teams among <strong>47,000+</strong> participants nationwide.</li>
-  </ul>
-</div>
+
+
