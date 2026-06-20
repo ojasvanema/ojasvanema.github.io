@@ -31,7 +31,7 @@ latest_posts:
 
 Hi, I'm **Ojasva**.
 
-I am an undergraduate at **IIT Roorkee** whose work revolves around **Deep Generative Models**, **Mechanistic Interpretability**, and **Large Language Models**. Currently, my work is focused on the interpretability side as a member of the [Data Science Group (DSG)](https://dsgiitr.in/). I lead a small research squad there investigating LLM internals, and we recently [published work](https://drive.google.com/file/d/1ymkZZ2y8Pl-0b81q2B_VH-egtbpZTrB2/view) on how models route domain knowledge (check out our [website](https://inside-llms.gitbook.io/surgical-domain-discovery)).
+I am an undergraduate at **IIT Roorkee** whose work revolves around **Deep Generative Models**, **Mechanistic Interpretability**, and **Large Language Models**. Currently, my work is focused on the interpretability side as a member of the [Data Science Group (DSG)](https://dsgiitr.in/). I lead a small research squad there investigating LLM internals, and we recently [published work](https://drive.google.com/file/d/1jBVpFUeKDsRFVVz_b28iJ8kns9Y5E-9Z/view?usp=sharing) on how models route domain knowledge (check out our [website](https://inside-llms.gitbook.io/surgical-domain-discovery)).
 
 Simultaneously, I work at the [P-square Lab](https://psquare-lab.github.io/) with Prof. Parikshit Pareek. We are investigating **Bilinear MLPs** to find more interpretable architectures and building a **foundation model for amortized kernel hyperparameter discovery**. We also recently finalized a [Sparse Diffusion](https://drive.google.com/file/d/1gd-tJp-8napvR_qcfLp3wWk1FNH72SFo/view?usp=drive_link) framework for high-energy physics (CERN).
 
