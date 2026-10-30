@@ -74,9 +74,12 @@ nav_order: 1
         <h1 class="font-weight-bold mb-3" style="font-size: 3.5rem; line-height: 1.2;">
           Hi, I'm <span class="gradient-text">Ojasva.</span>
         </h1>
-        <h3 class="font-weight-light mt-3" style="font-size: 1.35rem; color: var(--global-text-color);">
-          Incoming Summer Research Intern at <strong>Yale University</strong> &bull; Undergraduate Researcher at <a href="https://psquare-lab.github.io/" target="_blank" style="color: inherit; text-decoration: underline; text-decoration-color: var(--global-theme-color); white-space: nowrap;">P-Square Lab</a>, IIT Roorkee.
+        <h3 class="font-weight-normal mt-3" style="font-size: 1.35rem; color: var(--global-text-color);">
+          Undergraduate Researcher at <a href="https://psquare-lab.github.io/" target="_blank" style="color: inherit; text-decoration: underline; text-decoration-color: var(--global-theme-color); white-space: nowrap;">P-Square Lab</a>, IIT Roorkee
         </h3>
+        <p class="mt-2 text-muted" style="font-size: 1.05rem;">
+          Research Intern at <strong>Yale University</strong> &bull; Research Engineer at <strong>Elimentary</strong>
+        </p>
       </div>
 
       <div class="lead mb-4" style="font-size: 1.15rem; line-height: 1.6; color: var(--global-text-color-light);">

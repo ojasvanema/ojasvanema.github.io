@@ -13,7 +13,7 @@ nav_order: 2
   <div class="job py-3 border-bottom">
     <div class="row">
       <div class="col-md-9">
-        <h4 class="font-weight-bold">Summer Research Intern</h4>
+        <h4 class="font-weight-bold">Research Intern</h4>
         <h5 class="text-muted">Causal Evidence & Decisions Studio, <a href="https://c-d-s.github.io/" target="_blank">Prof. Harsh Parikh</a> &ndash; Yale University</h5>
       </div>
       <div class="col-md-3 text-md-right text-muted">
@@ -51,7 +51,7 @@ nav_order: 2
   <div class="job py-3 border-bottom">
     <div class="row">
       <div class="col-md-9">
-        <h4 class="font-weight-bold">AI Engineer (Intern)</h4>
+        <h4 class="font-weight-bold">Research Engineer</h4>
         <h5 class="text-muted"><a href="https://elimentary.com/" target="_blank">Elimentary</a> (YC F26)</h5>
       </div>
       <div class="col-md-3 text-md-right text-muted">
