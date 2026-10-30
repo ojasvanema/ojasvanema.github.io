@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 nav: true
 nav_order: 3
-subtitle: Undergraduate Researcher at <a href='https://psquare-lab.github.io/'>P-square Lab</a>.
+subtitle: Incoming Summer Research Intern at Yale University &bull; Undergraduate Researcher at <a href='https://psquare-lab.github.io/'>P-Square Lab</a>.
 
 profile:
   align: right
@@ -31,11 +31,13 @@ latest_posts:
 
 Hi, I'm **Ojasva**.
 
-I am an undergraduate at **IIT Roorkee** whose work revolves around **Deep Generative Models**, **Mechanistic Interpretability**, and **Large Language Models**. Currently, my work is focused on the interpretability side as a member of the [Data Science Group (DSG)](https://dsgiitr.in/). I lead a small research squad there investigating LLM internals, and we recently [published work](https://drive.google.com/file/d/1jBVpFUeKDsRFVVz_b28iJ8kns9Y5E-9Z/view?usp=sharing) on how models route domain knowledge (check out our [website](https://inside-llms.gitbook.io/surgical-domain-discovery)).
+I am an undergraduate at **IIT Roorkee** whose research spans **Causal Representation Learning**, **Deep Generative Models**, and **Mechanistic Interpretability**.
 
-Simultaneously, I work at the [P-square Lab](https://psquare-lab.github.io/) with Prof. Parikshit Pareek. We are investigating **Bilinear MLPs** to find more interpretable architectures and building a **foundation model for amortized kernel hyperparameter discovery**. We also recently finalized a [Sparse Diffusion](https://drive.google.com/file/d/1gd-tJp-8napvR_qcfLp3wWk1FNH72SFo/view?usp=drive_link) framework for high-energy physics (CERN).
+In Summer 2026, I will be a **Summer Research Intern at Yale University** with [Prof. Harsh Parikh](https://c-d-s.github.io/) (Causal Evidence & Decisions Studio), working on theoretical frameworks to construct Confidence Sets of Representations and causal representation learning.
 
-Previously, I worked on [Image Alchemy](https://arxiv.org/abs/2505.10743), a personalization method for diffusion models that I published at **ICLR DeLTa workshop 2025**. I also gained production-grade AI experience at [Elimentary](https://elimentary.com/), where I engineered local LLM APIs and evaluation pipelines.
+At IIT Roorkee, I work at the [P-square Lab](https://psquare-lab.github.io/) with Prof. Parikshit Pareek, investigating **Bilinear MLPs** for architectural inductive bias and surgical unlearning, as well as building **foundation models for amortized kernel hyperparameter discovery** and physics-aware sparse diffusion models for CERN.
+
+I also lead research on LLM internals at the [Data Science Group (DSG)](https://dsgiitr.in/), investigating how models route semantic domain knowledge (see our [preprint](https://drive.google.com/file/d/1jBVpFUeKDsRFVVz_b28iJ8kns9Y5E-9Z/view?usp=sharing) and [website](https://inside-llms.gitbook.io/surgical-domain-discovery)). Previously, I developed [Image Alchemy](https://arxiv.org/abs/2505.10743) (ICLR DeLTa workshop 2025) and gained production-grade AI experience at [Elimentary](https://elimentary.com/) (YC F26) building quantized local LLM APIs and evaluation infrastructure.
 
 Off the clock, I’m usually reading about finance (I’m always open to book recommendations!) or watching anime. Always happy to chat about circuits, LLMs, or what’s next in AI!
 
