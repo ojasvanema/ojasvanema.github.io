@@ -6,8 +6,61 @@ nav: true
 nav_order: 2
 ---
 
+<!-- Achievements Section -->
+<h2 class="category">Achievements & Honors</h2>
+<div class="achievements-section mb-5">
+  <div class="py-3 border-bottom">
+    <div class="row">
+      <div class="col-md-9">
+        <h5 class="font-weight-bold mb-1">Google DeepMind APAC Research Symposium 2026</h5>
+        <p class="text-muted mb-0">Selected as a student research delegate.</p>
+      </div>
+      <div class="col-md-3 text-md-right text-muted">
+        <small>2026</small>
+      </div>
+    </div>
+  </div>
+
+  <div class="py-3 border-bottom">
+    <div class="row">
+      <div class="col-md-9">
+        <h5 class="font-weight-bold mb-1">EY Techathon 6.0</h5>
+        <p class="text-muted mb-0">Secured a Top-3 finish among 180,000+ participants nationwide.</p>
+      </div>
+      <div class="col-md-3 text-md-right text-muted">
+        <small>2026</small>
+      </div>
+    </div>
+  </div>
+
+  <div class="py-3 border-bottom">
+    <div class="row">
+      <div class="col-md-9">
+        <h5 class="font-weight-bold mb-1">Amazon ML Challenge 2025</h5>
+        <p class="text-muted mb-0">Ranked 66th out of 82,789 participants in a national ML competition.</p>
+      </div>
+      <div class="col-md-3 text-md-right text-muted">
+        <small>2025</small>
+      </div>
+    </div>
+  </div>
+
+  <div class="py-3 border-bottom">
+    <div class="row">
+      <div class="col-md-9">
+        <h5 class="font-weight-bold mb-1">STC-UP Hackathon</h5>
+        <p class="text-muted mb-0">Ranked Top 11 across India; only undergraduate team competing against industry startups.</p>
+      </div>
+      <div class="col-md-3 text-md-right text-muted">
+        <small>2025</small>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 <!-- Research & Professional Experience Section -->
-<h2 class="category">Research & Professional Experience</h2>
+<h2 class="category mt-5">Research & Professional Experience</h2>
 <div class="experience-section mb-5">
   
   <div class="job py-3 border-bottom">
@@ -75,59 +128,3 @@ nav_order: 2
 <div class="publications">
 {% include selected_papers.liquid %}
 </div>
-
-
-<!-- Achievements Section -->
-<h2 class="category mt-5">Achievements & Honors</h2>
-<div class="achievements-section mb-5">
-  <div class="py-3 border-bottom">
-    <div class="row">
-      <div class="col-md-9">
-        <h5 class="font-weight-bold mb-1">Google DeepMind APAC Research Symposium 2026</h5>
-        <p class="text-muted mb-0">Selected as a student research delegate.</p>
-      </div>
-      <div class="col-md-3 text-md-right text-muted">
-        <small>2026</small>
-      </div>
-    </div>
-  </div>
-
-  <div class="py-3 border-bottom">
-    <div class="row">
-      <div class="col-md-9">
-        <h5 class="font-weight-bold mb-1">EY Techathon 6.0</h5>
-        <p class="text-muted mb-0">Secured a Top-3 finish among 180,000+ participants nationwide.</p>
-      </div>
-      <div class="col-md-3 text-md-right text-muted">
-        <small>2026</small>
-      </div>
-    </div>
-  </div>
-
-  <div class="py-3 border-bottom">
-    <div class="row">
-      <div class="col-md-9">
-        <h5 class="font-weight-bold mb-1">Amazon ML Challenge 2025</h5>
-        <p class="text-muted mb-0">Ranked 66th out of 82,789 participants in a national ML competition.</p>
-      </div>
-      <div class="col-md-3 text-md-right text-muted">
-        <small>2025</small>
-      </div>
-    </div>
-  </div>
-
-  <div class="py-3 border-bottom">
-    <div class="row">
-      <div class="col-md-9">
-        <h5 class="font-weight-bold mb-1">STC-UP Hackathon</h5>
-        <p class="text-muted mb-0">Ranked Top 11 across India; only undergraduate team competing against industry startups.</p>
-      </div>
-      <div class="col-md-3 text-md-right text-muted">
-        <small>2025</small>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-

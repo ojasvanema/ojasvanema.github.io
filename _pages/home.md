@@ -21,35 +21,63 @@ nav_order: 1
     font-weight: 800;
   }
 
-  .btn-theme {
+  .cta-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.85rem;
+  }
+
+  .btn-action-primary {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.65rem 1.35rem;
+    font-size: 0.95rem;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    color: var(--global-bg-color) !important;
+    background-color: var(--global-text-color);
+    border: 1px solid var(--global-text-color);
+    border-radius: 6px;
+    text-decoration: none !important;
+    transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .btn-action-primary:hover {
     background-color: var(--global-theme-color);
     border-color: var(--global-theme-color);
-    color: #fff;
-    padding: 0.75rem 1.5rem;
-    font-weight: 600;
-    transition: all 0.3s ease;
+    color: #fff !important;
   }
 
-  .btn-theme:hover {
-    background-color: var(--global-hover-color);
-    border-color: var(--global-hover-color);
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  .btn-action-primary:hover .arrow,
+  .btn-action-secondary:hover .arrow {
+    transform: translateX(3px);
   }
 
-  .btn-outline-theme {
-    color: var(--global-theme-color);
-    border-color: var(--global-theme-color);
+  .btn-action-secondary {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.65rem 1.35rem;
+    font-size: 0.95rem;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    color: var(--global-text-color) !important;
     background-color: transparent;
-    padding: 0.75rem 1.5rem;
-    font-weight: 600;
-    transition: all 0.3s ease;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 6px;
+    text-decoration: none !important;
+    transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
   }
 
-  .btn-outline-theme:hover {
-    background-color: var(--global-theme-color);
-    color: #fff;
-    transform: translateY(-2px);
+  .btn-action-secondary:hover {
+    border-color: var(--global-text-color);
+    background-color: rgba(125, 125, 125, 0.06);
+  }
+
+  .arrow {
+    display: inline-block;
+    transition: transform 0.2s ease;
   }
 
   .social-icon-link {
@@ -75,10 +103,10 @@ nav_order: 1
           Hi, I'm <span class="gradient-text">Ojasva.</span>
         </h1>
         <h3 class="font-weight-normal mt-3" style="font-size: 1.35rem; color: var(--global-text-color);">
-          Undergraduate Researcher at <a href="https://psquare-lab.github.io/" target="_blank" style="color: inherit; text-decoration: underline; text-decoration-color: var(--global-theme-color); white-space: nowrap;">P-Square Lab</a>, IIT Roorkee
+          Research Engineer at <a href="https://elimentary.com/" target="_blank" style="color: inherit; text-decoration: underline; text-decoration-color: var(--global-theme-color); white-space: nowrap;">Elimentary</a>
         </h3>
-        <p class="mt-2 text-muted" style="font-size: 1.05rem;">
-          Research Intern at <strong>Yale University</strong> &bull; Research Engineer at <strong>Elimentary</strong>
+        <p class="mt-2" style="font-size: 1.05rem; color: var(--global-text-color-light); font-weight: 400; line-height: 1.6;">
+          Undergraduate Researcher at <a href="https://psquare-lab.github.io/" target="_blank" style="color: inherit; text-decoration: underline; text-decoration-color: var(--global-theme-color); white-space: nowrap;">P-Square Lab</a>, IIT Roorkee &bull; Research Intern at <a href="https://c-d-s.github.io/" target="_blank" style="color: inherit; text-decoration: underline; text-decoration-color: var(--global-theme-color); white-space: nowrap;">Yale University</a>
         </p>
       </div>
 
@@ -90,10 +118,15 @@ nav_order: 1
       </div>
 
       <div class="cta-buttons mb-5">
-        <a href="{{ '/work/' | relative_url }}" class="btn btn-theme mr-3 rounded-pill" role="button">View My Work</a>
-        <a href="{{ '/about/' | relative_url }}" class="btn btn-outline-theme rounded-pill" role="button">More About Me</a>
+        <a href="{{ '/work/' | relative_url }}" class="btn-action-primary" role="button">
+          <span>Selected Work</span>
+          <span class="arrow">&rarr;</span>
+        </a>
+        <a href="{{ '/about/' | relative_url }}" class="btn-action-secondary" role="button">
+          <span>About & Bio</span>
+          <span class="arrow">&rarr;</span>
+        </a>
       </div>
-
 
     </div>
 
@@ -101,19 +134,21 @@ nav_order: 1
     <div class="col-md-5 text-center">
       <div class="profile-container">
         <img 
-          src="{{ '/assets/img/profile_pic.jpg' | relative_url }}" 
-          alt="profile picture" 
+          src="{{ '/assets/img/profile_pic.jpeg' | relative_url }}" 
+          alt="Ojasva Nema" 
           class="img-fluid" 
           style="
-            border-radius: 30px; 
+            border-radius: 20px; 
             max-width: 320px;
             width: 100%;
+            aspect-ratio: 1 / 1;
             object-fit: cover;
-            box-shadow: 0 20px 60px rgba(0,0,0,0.3), 0 0 0 1px rgba(255,255,255,0.1);
+            border: 1px solid var(--global-divider-color);
+            box-shadow: 0 12px 36px -8px rgba(0,0,0,0.18);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
           "
-          onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 25px 70px rgba(0,0,0,0.4), 0 0 0 1px rgba(255,255,255,0.1)'"
-          onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 20px 60px rgba(0,0,0,0.3), 0 0 0 1px rgba(255,255,255,0.1)'"
+          onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 16px 44px -8px rgba(0,0,0,0.22)'"
+          onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 12px 36px -8px rgba(0,0,0,0.18)'"
         >
       </div>
     </div>
