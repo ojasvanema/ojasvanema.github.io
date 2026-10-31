@@ -158,6 +158,12 @@
               {% if entry.arxiv %}
                 <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
               {% endif %}
+              {% if entry.bibtex %}
+                <a class="btn btn-sm z-depth-0 bibtex-copy-btn" role="button" data-key="{{ entry.key }}">
+                  <i class="fa-solid fa-terminal mr-1" style="font-size: 0.72rem; opacity: 0.85;"></i>BibTeX
+                </a>
+                <pre class="d-none" id="bibtex-raw-{{ entry.key }}">{{- entry.bibtex | hideCustomBibtex -}}</pre>
+              {% endif %}
             </div>
 
           </div>
