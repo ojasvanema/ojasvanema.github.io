@@ -125,7 +125,8 @@ nav_order: 1
           Research Engineer at <a href="https://elimentary.com/" target="_blank" style="color: inherit; text-decoration: underline; text-decoration-color: var(--global-theme-color); white-space: nowrap;">Elimentary</a>
         </h3>
         <p class="mt-2" style="font-size: 1.05rem; color: var(--global-text-color-light); font-weight: 400; line-height: 1.6;">
-          Undergraduate Researcher at <a href="https://psquare-lab.github.io/" target="_blank" style="color: inherit; text-decoration: underline; text-decoration-color: var(--global-theme-color); white-space: nowrap;">P-Square Lab</a>, IIT Roorkee &bull; Research Intern at <a href="https://c-d-s.github.io/" target="_blank" style="color: inherit; text-decoration: underline; text-decoration-color: var(--global-theme-color); white-space: nowrap;">Yale University</a>
+          Research Intern at <a href="https://c-d-s.github.io/" target="_blank" style="color: inherit; text-decoration: underline; text-decoration-color: var(--global-theme-color); white-space: nowrap;">Yale University</a><br>
+          Undergraduate Researcher at <a href="https://psquare-lab.github.io/" target="_blank" style="color: inherit; text-decoration: underline; text-decoration-color: var(--global-theme-color); white-space: nowrap;">P-Square Lab</a>, IIT Roorkee
         </p>
       </div>
 
